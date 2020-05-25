@@ -48,8 +48,7 @@ nav ul li {
     top: auto;
 }
 .hero-img {
-    margin-top: auto;
-    clear: both;
+    margin: 0;
 }
 
 .border-top-1 {
@@ -64,6 +63,17 @@ nav ul li {
 }
 
 /*****MAIN*****/
+.border-bottom-1 {
+    background-color: #77a466;
+    position: center;
+    margin: 0 auto;
+    left: 20px;
+    top: 3px;
+    width: 1200px;
+    height: 3px;
+    z-index: 27;
+}
+
 h2 {
     color: #77a466;
     font-size: 18px;
