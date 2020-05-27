@@ -20,7 +20,7 @@ header h1 {
     color: #000000;
     float: left;
     font-size: 30px;
-    line-height: 23px;
+    font-weight: bold;
     margin: 0;
     padding: 38px 0;
     text-transform: uppercase;
@@ -44,7 +44,6 @@ header nav ul li {
     display: inline;
     font-size: 14px;
     font-weight: bold;
-    line-height: 23px;
     padding: 0 10px;
     text-transform: uppercase;
 }
@@ -78,7 +77,6 @@ header nav ul li a {
 .main h3 {
     color: #77a466;
     font-size: 18px;
-    line-height: 23px;
     padding: 5px 0;
     text-align: left;
     text-transform: uppercase;
@@ -97,15 +95,14 @@ header nav ul li a {
     margin: 0 auto;
 }
 
-.bottom-section h3 {
+.bottom-section h4 {
     color: #000000;
     font-size: 12px;
     font-weight: bold;
-    line-height: 25px;
     text-transform: uppercase;
 }
 
-.section-one {
+.specials {
     border-top: 1px solid #eeeeee;
     float: left;
     height: auto;
@@ -113,19 +110,23 @@ header nav ul li a {
     width: 399px;
 }
 
-.specials h3 {
+.specials h4 {
     padding 10px 0;
 }
 
-.specials li {
+.specials ul {
+    list-style: none;
+    padding: 0;
+}
+
+.specials ul li {
     color: #77a466;
     font-size: 16px;
     line-height: 18px;
-    list-style: none;
     padding: 10px 0;
 }
 
-.section-two {
+.reviews {
     border-left: 1px solid #eeeeee;
     border-right: 1px solid #eeeeee;
     border-top: 1px solid #eeeeee;
@@ -133,35 +134,37 @@ header nav ul li a {
     height: auto;
     width: 399px;
 }
-.reviews h3 {
+.reviews h4 {
     padding: 10px 30px;
 }
-.reviews {
+.reviews p {
     color: #000000;
     font-size: 16px;
     line-height: 21px;
+    padding: 0 30px;
 }
 
-.section-three {
+.contact {
     border-top: 1px solid #eeeeee;
     float: left;
     height: auto;
     width: 399px;
 }
 
-.contact h3 {
+.contact h4 {
     padding: 10px 30px;
 }
 
-.contact {
+.contact p {
     color: #000000;
     font-size: 16px;
     line-height: 24px;
+    padding: 0 30px;
 }
 
 /*****FOOTER*****/
 footer {
-    border-top: 1px solid #eeeeee;
+    border-top: 3px solid #eeeeee;
     clear: both;
     height: 50px;
     margin: 0 auto;
