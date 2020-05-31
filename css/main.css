@@ -9,6 +9,13 @@ body {
     width: 1200px;
 }
 
+.half-width {
+    float: left;
+    margin: 0 auto;
+
+    width: 600px;
+}
+
 /*****HEADER*****/
 header {
     border-bottom: 3px solid #77a466;
@@ -53,7 +60,7 @@ header nav ul li a {
     text-decoration: none;
 }
 
-/*****IMAGE & BORDERS*****/
+/*****HERO IMAGE*****/
 .top-section {
     clear: both;
     margin: 0 auto;
@@ -110,8 +117,10 @@ header nav ul li a {
     width: 399px;
 }
 
-.specials h4 {
-    padding: 10px 0;
+.specials h4 a {
+    color: #000000;
+    padding: 0;
+    text-decoration: none;
 }
 
 .specials ul {
@@ -134,8 +143,10 @@ header nav ul li a {
     height: auto;
     width: 399px;
 }
-.reviews h4 {
+.reviews h4 a {
+    color: #000000;
     padding: 10px 30px;
+    text-decoration: none;
 }
 .reviews p {
     color: #000000;
@@ -151,8 +162,10 @@ header nav ul li a {
     width: 399px;
 }
 
-.contact h4 {
+.contact h4 a {
+    color: #000000;
     padding: 10px 30px;
+    text-decoration: none;
 }
 
 .contact p {
@@ -185,3 +198,66 @@ footer span {
     font-size: 14px;
     text-transform: lowercase;
 }
+
+/*****MENU PAGE*****/
+.menu-main {
+    float: left;
+    height: auto;
+}
+
+.menu-main h3 {
+    color: #77a466;
+    font-size: 18px;
+    padding: 5px 0;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.menu-main p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 0;
+}
+
+/*****GALLERY*****/
+.gallery {
+    float: left;
+    height: auto;
+}
+
+.gallery h2 {
+    clear: both;
+    color: #77a466;
+    font-size: 24px;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+
+.row {
+    margin: 8px -16px;
+}
+  
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 4px;
+}
+  
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 400px;
+}
+
+/* Clear floats after rows */
+.row:after {
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    padding: 10px;
+}
+  
