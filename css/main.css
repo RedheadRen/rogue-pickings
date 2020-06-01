@@ -12,7 +12,6 @@ body {
 .half-width {
     float: left;
     margin: 0 auto;
-
     width: 600px;
 }
 
@@ -220,7 +219,7 @@ footer span {
     padding: 0;
 }
 
-/*****GALLERY*****/
+/*****GALLERY PAGE*****/
 .gallery {
     float: left;
     height: auto;
@@ -237,14 +236,12 @@ footer span {
 .row {
     margin: 8px -16px;
 }
-  
-/* Add padding BETWEEN each column (if you want) */
+
 .row,
 .row > .column {
     padding: 4px;
 }
-  
-/* Create three equal columns that floats next to each other */
+
 .column {
     float: left;
     width: 400px;
