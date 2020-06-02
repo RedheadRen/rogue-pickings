@@ -12,7 +12,8 @@ body {
 .half-width {
     float: left;
     margin: 0 auto;
-    width: 600px;
+    padding: 0 50px;
+    width: 500px;
 }
 
 /*****HEADER*****/
@@ -112,7 +113,7 @@ header nav ul li a {
     border-top: 1px solid #eeeeee;
     float: left;
     height: auto;
-    padding: 10px 0;
+    padding: 0;
     width: 399px;
 }
 
@@ -199,6 +200,7 @@ footer span {
 }
 
 /*****MENU PAGE*****/
+
 .menu-main {
     float: left;
     height: auto;
@@ -208,7 +210,7 @@ footer span {
     color: #77a466;
     font-size: 18px;
     padding: 5px 0;
-    text-align: left;
+    text-align: justify;
     text-transform: uppercase;
 }
 
@@ -217,6 +219,7 @@ footer span {
     font-size: 16px;
     line-height: 25px;
     padding: 0;
+    text-align: justify;
 }
 
 /*****GALLERY PAGE*****/
@@ -257,4 +260,31 @@ footer span {
 .content {
     padding: 10px;
 }
-  
+ 
+/******LOCATIONS PAGE*****/
+.maps-bottom-section {
+    border-top: 3px solid #eeeeee;
+    clear: both;
+    padding: 0 0 10px 0;
+}
+
+.maps {
+    margin: auto;
+}
+
+.maps h3 {
+    color: #77a466;
+    font-size: 18px;
+    padding: 5px 0;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+.maps p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 10px;
+    padding: 0;
+    text-align: justify;
+}
+
