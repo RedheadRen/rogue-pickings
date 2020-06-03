@@ -116,18 +116,15 @@ header nav ul li a {
     padding: 0;
     width: 399px;
 }
-
 .specials h4 a {
     color: #000000;
     padding: 0;
     text-decoration: none;
 }
-
 .specials ul {
     list-style: none;
     padding: 0;
 }
-
 .specials ul li {
     color: #77a466;
     font-size: 16px;
@@ -161,13 +158,11 @@ header nav ul li a {
     height: auto;
     width: 399px;
 }
-
 .contact h4 a {
     color: #000000;
     padding: 10px 30px;
     text-decoration: none;
 }
-
 .contact p {
     color: #000000;
     font-size: 16px;
@@ -200,16 +195,14 @@ footer span {
 }
 
 /*****MENU PAGE*****/
-
 .menu-main {
-    float: left;
     height: auto;
 }
 
 .menu-main h3 {
     color: #77a466;
     font-size: 18px;
-    padding: 5px 0;
+    padding-top: 5px;
     text-align: justify;
     text-transform: uppercase;
 }
@@ -217,25 +210,12 @@ footer span {
 .menu-main p {
     color: #000000;
     font-size: 16px;
-    line-height: 25px;
-    padding: 0;
+    line-height: 15px;
+    margin-left: 20px;
     text-align: justify;
 }
 
 /*****GALLERY PAGE*****/
-.gallery {
-    float: left;
-    height: auto;
-}
-
-.gallery h2 {
-    clear: both;
-    color: #77a466;
-    font-size: 24px;
-    padding: 5px 0;
-    text-transform: uppercase;
-}
-
 .row {
     margin: 8px -16px;
 }
@@ -250,13 +230,11 @@ footer span {
     width: 400px;
 }
 
-/* Clear floats after rows */
 .row:after {
     display: table;
     clear: both;
 }
 
-/* Content */
 .content {
     padding: 10px;
 }
@@ -288,3 +266,24 @@ footer span {
     text-align: justify;
 }
 
+/*****REVIEWS PAGE****/
+.reviews-bottom-section {
+    height: auto;
+    clear: both;
+}
+
+.reviews-bottom-section h3 {
+    color: #000000;
+    padding: 5px 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.reviews-bottom-section p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 50px;
+    padding: 0;
+}
